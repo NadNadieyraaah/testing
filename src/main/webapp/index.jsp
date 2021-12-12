@@ -8,6 +8,7 @@
 <%@ include file="Menu.html"%>
 <h1>
     <%= "\n\nHELLO,  " + session.getAttribute("MyName") %>
+    <%= "GOOD MORNING"%>
 </h1>
 
 <br/>
