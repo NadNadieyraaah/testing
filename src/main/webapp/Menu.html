@@ -1,0 +1,260 @@
+</DOCTYPEhtml>
+<html xmlns="http://www.w3.org/1999/html">
+
+    <div class = "top-nav">
+        <a class = "active" href="index.jsp">Home</a>
+        <a href="MySelf.jsp">Self Info</a>
+        <a href="MyFamily.jsp">Family Info</a>
+        <a href="MyStudent.jsp">Student Info</a>
+        <a href="MyPrevStudies.jsp">Previous Studies Info</a>
+    </div>
+
+    <style>
+        body{
+            margin:0 auto;
+            font-family: Arial, Helvetica, sans serif;
+            background-color: #aca49c;
+        }
+
+        .top-nav
+        {
+            overflow: hidden;
+            background-color:#333;
+            margin: 0 auto;
+        }
+        .top-nav a{
+
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .top-nav a:hover
+        {
+            background-color:#ddd;
+            color:black;
+        }
+
+        .top-nav a.active
+        {
+            background-color: navajowhite;
+            color: white;
+
+        }
+
+
+h6 {
+    font-size: 20px;
+    text-decoration: black;
+    font-family: BookmanOldStyle;
+    padding-left: 80px;
+    width : 65%;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 20px;
+    text-decoration: black;
+    font-family:BookmanOldStyle;
+
+}
+
+        .vertical-menu
+        {
+            width: 200px;
+
+        }
+
+        .vertical-menu a
+        {
+            background-color: #eee;
+            color: black;
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+            margin: 0 auto;
+            width: 50%;
+
+        }
+
+        .vertical-menu a:hover
+        {
+            background-color: #ccc;
+
+        }
+
+        .vertical-menu a.active
+        {
+            background-color: sandybrown;
+            color: white;
+        }
+
+
+        input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+            color: #aca49c;
+            font-size: 0.875em;
+            margin: 0 auto;
+            width: 50%;
+            display: block;
+        }
+
+        input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+            color: #bbb5af;
+            display: block;
+
+        }
+
+        input::-moz-placeholder, textarea::-moz-placeholder {
+            color: #aca49c;
+            font-size: 0.875em;
+            margin: 0 auto;
+            width: 50%;
+            display: block;
+
+        }
+
+        input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+            color: #bbb5af;
+            display: block;
+
+        }
+
+        input::placeholder, textarea::placeholder {
+            color: #aca49c;
+            font-size: 0.875em;
+            margin: 0 auto;
+            width: 50%;
+            display: block;
+
+
+        }
+
+        input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+            color: #e2dedb;
+            font-size: 1.0em;
+        }
+
+        input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+            color: #cbc6c1;
+        }
+
+        input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+            color: #e2dedb;
+            font-size: 1.0em;
+        }
+
+        input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+            color: #cbc6c1;
+        }
+
+        input:hover::placeholder, textarea:hover::placeholder {
+            color: #e2dedb;
+            font-size: 1.0em;
+        }
+
+        input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+            color: #cbc6c1;
+        }
+
+        input:hover::placeholder, textarea:hover::placeholder {
+            color: #e2dedb;
+            font-size: 1.0em;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            color: black;
+            margin: 0 auto;
+            display: block;
+        }
+
+        form {
+            width: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        input {
+            font-family: 'Lato', sans-serif;
+            font-size: 1.0em;
+            width: 50%;
+            height: 50px;
+            padding: 0px 15px 0px 15px;
+            display:block;
+
+            background: blanchedalmond;
+            outline: none;
+            color: #726659;
+
+            border: solid 2px #aca49c;
+            border-bottom:solid 2px #aca49c;
+
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+        }
+
+        input:hover {
+            background: #b3aca7;
+            color: #e2dedb;
+        }
+
+        textarea {
+            width: 50%;
+            max-width: 50%;
+            height: 110px;
+            max-height: 110px;
+            padding: 50%;
+            display: block;
+
+            background: blanchedalmond;
+            outline: none;
+
+            color: #726659;
+            font-family: 'Lato', sans-serif;
+            font-size: 1.0em;
+
+            border: solid 1px #b3aca7;
+
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+        }
+
+        textarea:hover {
+            background: #b3aca7;
+            color: #e2dedb;
+        }
+
+        #submit {
+            width: 50%;
+            padding: 0;
+            margin: -5px 0px 0px 0px;
+
+            font-family: 'Lato', sans-serif;
+            font-size: 1.0em;
+            color: #b3aca7;
+
+            outline:none;
+            cursor: pointer;
+
+            border: solid 2px #b3aca7;
+            border-top: none;
+            display: block;
+        }
+
+        #submit:hover {
+            color: #e2dedb;
+        }
+
+</style>
+</body>
+</html>
+
+
