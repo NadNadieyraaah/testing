@@ -8,7 +8,9 @@
 <%@ include file="Menu.html"%>
 <h1>
     <%= "\n\nHELLO,  " + session.getAttribute("MyName") %>
+
 </h1>
+
 <br/>
 
 <div class="vertical-menu">

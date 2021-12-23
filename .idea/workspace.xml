@@ -9,10 +9,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="329cd61e-49e7-4c32-8c51-e1fb13d227ed" name="Changes" comment="SECOND INITIAL COMMIT">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+    <list default="true" id="329cd61e-49e7-4c32-8c51-e1fb13d227ed" name="Changes" comment="THIRD INITIAL COMMIT">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_jstl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JEETest_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JEETest_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ejb_javax_ejb_api_3_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ejb_javax_ejb_api_3_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JEETest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JEETest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/MyFamily.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MyFamily.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/MyPrevStudies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MyPrevStudies.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/MySelf.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MySelf.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/MyStudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/MyStudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JEETest-1.0-SNAPSHOT/MyFamily.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/JEETest-1.0-SNAPSHOT/MyFamily.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JEETest-1.0-SNAPSHOT/MyPrevStudies.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/JEETest-1.0-SNAPSHOT/MyPrevStudies.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JEETest-1.0-SNAPSHOT/MySelf.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/JEETest-1.0-SNAPSHOT/MySelf.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JEETest-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/JEETest-1.0-SNAPSHOT/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +60,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib" />
+    <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.43707094" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -146,9 +168,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="JEETest:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -180,7 +200,14 @@
       <workItem from="1639010267246" duration="760000" />
       <workItem from="1639036884528" duration="308000" />
       <workItem from="1639058610928" duration="2021000" />
-      <workItem from="1639241272982" duration="8542000" />
+      <workItem from="1639241272982" duration="9876000" />
+      <workItem from="1639382111064" duration="638000" />
+      <workItem from="1639622666201" duration="4524000" />
+      <workItem from="1640092294464" duration="7474000" />
+      <workItem from="1640132753052" duration="1032000" />
+      <workItem from="1640179180320" duration="9645000" />
+      <workItem from="1640221055579" duration="8078000" />
+      <workItem from="1640233898851" duration="4762000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1639271835472</created>
@@ -217,7 +244,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639277117936</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SECOND INITIAL COMMIT">
+      <created>1639278651627</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639278651627</updated>
+    </task>
+    <task id="LOCAL-00007" summary="THIRD INITIAL COMMIT">
+      <created>1639279263225</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639279263225</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,10 +274,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="SECOND INITIAL COMMIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="SECOND INITIAL COMMIT" />
+    <MESSAGE value="THIRD INITIAL COMMIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="THIRD INITIAL COMMIT" />
   </component>
 </project>
